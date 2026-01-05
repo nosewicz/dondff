@@ -53,7 +53,8 @@ const Weeks = () => {
   };
 
   useEffect(() => {
-    getActualWeek();
+    //getActualWeek();
+    setActualNFLWeek(19);
   }, []);
 
   return (
